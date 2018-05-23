@@ -569,6 +569,10 @@
      transform: translate(-50%, -50%) 
 }
 /* video */
+ .dividingdiv20{
+     height:20px;
+}
+
  .dividingdiv50{
      height:50px;
 }
@@ -607,3 +611,22 @@
      padding-left: 15px;
      z-index: 3;
 }
+
+ .footerrow{
+ 	background-color: #e3c77b;
+}
+
+ .leftfooter{
+ 	padding-left: 25px;
+ 	padding-top: 10px;
+ }
+
+ .rightfooter{
+ 	text-align:right;
+ 	padding-right:50px; 
+ 	padding-top:10px;
+ }
+
+ .footerpaddingtop{
+ 	padding-top:15px;
+ }

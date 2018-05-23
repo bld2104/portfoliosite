@@ -1,19 +1,19 @@
 <!-- large footer -->
 <footer>
     <div class="hidden-sm hidden-xs">
-        <div class='row' style='background-color: #e3c77b; height:50px'>
-            <div class='col-lg-4 col-md-4' style='text-align:left; '>
-                <!---->
-                <p style='padding-left: 25px; padding-top: 10px'> &copy; Barbara Donnini,
+        <div class='row footerrow'>
+            <div class='col-lg-4 col-md-4 hcenter leftfooter'>
+                <p>Favicon made by <a href="https://www.flaticon.com/authors/smashicons" title="Pie chart">Pie chart</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"
+                        title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></p>
+
+            </div>
+            <div class='col-lg-4 col-md-4 hcenter'>
+                <p>&copy; Barbara Donnini,
                     <?php echo date("Y"); ?>
                 </p>
-            </div>
-            <div class='col-lg-4 col-md-4' style='text-align:center; '>
-                <div style='text-align:center'>
 
-                </div>
             </div>
-            <div class='col-lg-4 col-md-4' style='text-align:right; padding-right:50px; padding-top:10px'>
+            <div class='col-lg-4 col-md-4 rightfooter'>
                 <a href="#top" class="btn btn-primary">Back to Top</a>
             </div>
         </div>
@@ -21,19 +21,19 @@
 
     <!-- Small Footer -->
     <div class="hidden-lg hidden-md">
-        <div class='row' style='background-color: #e3c77b; text-align:center;'>
-            <div class='col-sm-12 col-xs-12' style="padding-top:15px">
-                <p> &copy; Barbara Donnini,
+        <div class='row footerrow hcenter'>
+            <div class='col-sm-12 col-xs-12 footerpaddingtop'>
+                <p>Favicon made by <a href="https://www.flaticon.com/authors/smashicons" title="Pie chart">Pie chart</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"
+                        title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></p>
+            </div>
+            <div class='col-sm-12 col-xs-12'>
+                <p>&copy; Barbara Donnini,
                     <?php echo date("Y"); ?>
                 </p>
             </div>
             <div class='col-sm-12 col-xs-12'>
-
-                <br>
-            </div>
-            <div class='col-sm-12 col-xs-12'>
                 <a href="#top" class="btn btn-primary">Back to Top</a>
-                <div style="height:20px"></div>
+                <div class="dividingdiv20"></div>
             </div>
             <div class='col-sm-12 col-xs-12'>
             </div>
