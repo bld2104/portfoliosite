@@ -92,7 +92,7 @@
                             <picture>
                                 <source class="img-responsive hcenter" media="(min-width: 992px)" srcset="images/pats-2x.png 2x, images/pats-1x.png" />
                                 <source class="img-responsive hcenter" media="(min-width:768px)" srcset="images/pats-medium.png" />
-                                <source class="img-responsive hcenter" media="(min-width:480px)" srcset="imagesx/pats-small.png" />
+                                <source class="img-responsive hcenter" media="(min-width:480px)" srcset="images/pats-small.png" />
                                 <source class="img-responsive hcenter" srcset="images/pats-xs.png">
                                 <img class="img-responsive hcenter" src="images/pats-small.png" alt="Pats Hair Styling Website Screenshot">
                             </picture>

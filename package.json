@@ -2,7 +2,7 @@
   "name": "barbara-donnini-website",
   "version": "0.1.0",
   "devDependencies": {
-    "grunt": "~0.4.1",
+    "grunt": "~1.0.3",
     "grunt-contrib-concat": "^1.0.1",
     "grunt-cwebp": "^2.1.0",
     "grunt-webp": "0.0.4",

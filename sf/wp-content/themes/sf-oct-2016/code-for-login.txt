@@ -1,0 +1,63 @@
+large screen
+<!--<div class="visible-lg visible-md hidden-sm hidden-xs">
+  <div class="col-lg-9 col-md-8 hidden-sm hidden-xs" style="text-align:right">
+ 
+   </div>
+  
+  
+  <div class="col-lg-3 col-md-4 hidden-sm hidden-xs pull-right" style="background-color: black; border-radius:7px;">
+<p style="text-align: center; margin-top: 10px">  
+  <?php
+if ( ! is_user_logged_in() ) { // Display WordPress login form: 
+  ?>
+    <a href="/index.php/login">Login</a> <?php
+    echo "|";
+     wp_register('<!--','--><a href="/index.php/register">Register</a>');
+} else { // If logged in:
+    wp_loginout( home_url() ); // Display "Log Out" link.
+    echo " | ";
+       wp_register('<!--','--><a href="/index.php/profile">Your Profile</a>');
+}
+?>    
+
+  </p>
+          </div>
+
+</div>-->
+
+Small Screen
+
+         <!--         <div class="hidden-lg hidden-md visible-sm hidden-xs" style="position: absolute; right: 1px; z-index: 99; height: 50px; border-radius:7px; background-color: black; text-align: center; font-size: 14pt; width: 175px;">
+                  <br><br>
+<p style="margin-top: -35px">  
+  <?php
+if ( ! is_user_logged_in() ) { // Display WordPress login form: 
+  ?>
+    <a href="/index.php/login">Login</a> 
+
+    <?php
+    echo "|";
+     wp_register('<!--','--><a href="/index.php/register">Register</a>');
+} else { // If logged in:
+    wp_loginout( home_url() ); // Display "Log Out" link.
+    echo " | ";
+       wp_register('<!--','--><a href="/index.php/profile">Your Profile</a>');
+}
+?>    
+
+  </p>
+          </div>-->
+
+
+XS Screen
+ <!--   <li>
+            <?php
+if ( ! is_user_logged_in() ) { // Display WordPress login form: 
+  wp_loginout( home_url() );
+     wp_register('<!--','--><a href="/index.php/register">Register</a>');} else {
+       wp_loginout( home_url() ); // Display "Log Out" link.
+   
+            wp_register('<!--','--><a href="/index.php/profile">Your Profile</a>');
+}
+      ?>
+</li>-->
